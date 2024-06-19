@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+            <div class="container">
+                <nav>
+                  <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu" > 
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume-section">Resume</a></li>
+                    <li><a href="#skills1">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                
+        </nav>
+        <div class="header-text">
+            <p>Front-End Developer</p>
+            <h1>Hi, I am<span> Pranita Jagtap </span><br>From India</h1>
+        </div>
+    </div>
+    </div>
+
+   
+    <div id="about">
+        <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/abt.jpg">
+            </div>
+            <div class="about-col-1">
+                <h1 class="sub-title">About Me</h1>
+                <p>As a recent MCA Post Graduate with a strong ambition to excel in the IT industry, I am enthusiastic about pursuing a career in Web development. With 6 months of practical experience in both Android and Web development, I have developed a comprehensive skill set that includes proficiency in HTML, Html5,CSS, JavaScript, React Js, Java, Php, Firebase, Mysql and Android. During my tenure, I have successfully collaborated on projects leveraging Firebase for Android applications, gaining valuable insights into agile development practices and user-centric design principles. I am deeply committed to staying abreast of emerging technologies and methodologies, and I am eager to contribute my expertise and passion for innovation to a forward-thinking IT team. I am excited about the opportunity to further expand my knowledge and skills while delivering impactful solutions that drive business success.</p>
+                <div class="tab-titles">
+                    
+                    <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                 
+                 <div class="tab-contents active-tab" id="experience">
+                    <ul>
+                        <li><span>KRM UNITED SOFTWARE PVT LTD</span><br>App/Web development</li>
+                        <li><span>Jan 2024- June 2024</span><br></li>
+                        <li><span>Internship </span><br></li>
+                       
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2022-2024</span><br>MCA</li>
+                        <li><span>2019-2022</span><br>BCA</li>
+                        
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+        <div class="container">
+          <div class="row justify-content-center pb-5">
+            <div class="col-md-10 heading-section text-center ftco-animate">
+              <h1 class="big big-2">Resume</h1>
+              
+              <p>To work in a competitive environment without compromising on honesty, hard work and quality,learning new things
+                each day.
+                </p>
+            </div>
+          </div>
+  
+          <div class="row">
+            <h1 class="big-4">Experience</h1>
+            <div class="underline"></div>
+          </div>
+          <br>
+  
+          <div class="row">
+            <div class="col-md-6">
+              <div class="resume-wrap ftco-animate">
+                <span class="date">2024-Present</span>
+                <h2>Android Developer</h2>
+                <span class="position">KRM </span>
+                <p class="mt-4">KRM UNITED SOFTWARE PVT LTD
+                  <ul>
+                    <li>Achieved 80% growth for Android and Web Development using Android, Java, Firebase and Html, CSS, Bootstrap skills.</li>
+                    <li>Developed ERP App and a Website using Java, Html, Css, Bootstrap and Javascript.
+                    </li>
+                    <li>Developed a E-commerce website using html,css, javascript.</li> 
+                  </ul>
+                </p>
+              </div>
+  
+            </div>
+  
+           
+          </div>
+  
+          <br>
+          <br>
+  
+          <div class="row">
+            <h1 class="big-4">Education</h1>
+            <div class="underline"></div>
+          </div>
+          <br>
+          
+          <div class="row">
+            <div class="col-md-6">
+              <div class="resume-wrap ftco-animate">
+                <span class="date">2022-2024</span>
+                <h2>Masters of Computer Applications</h2>
+                <span class="position">Pratibha College Of Business Studies and Application</span>
+                <p class="mt-4">Grade: A</p>
+              </div>
+            </div>
+          
+            <div class="col-md-6">
+              <div class="resume-wrap ftco-animate">
+                <span class="date">2019-2022</span>
+                <h2>Bachelor of Computer Applications</h2>
+                <span class="position">ATSS College </span>
+                <p class="mt-4">Grade: A+</p>
+              </div>
+            </div>
+          </div>
+          
+  
+          <div class="row justify-content-center mt-5">
+            <div class="col-md-6 text-center ftco-animate">
+              <p>
+                <a href="images/pranitajagtap_resume.pdf" class="btn btn-primary py-4 px-5">Download CV</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section class="ftco-section" id="project-section">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+              <h1 class="big big-2">Projects</h1>
+              <p>Below are the sample of my Internal College Projects</p>
+            </div>
+          </div>
+          <div class="row d-flex">
+            <div class="col-md-4 d-flex ftco-animate">
+              <div class="blog-entry justify-content-end">
+                <div class="block-20 zoom-effect" style="background-image: url('images/logo.jpg');"></div>
+                <div class="text mt-3 float-right d-block">
+                  <h3 class="heading">Donation System for Education</h3>
+                  <p>It was designed to bring awareness among the people and in the society by considering all the problems faced by our society by the little bright future of our country with the help of Html, Css, Mysql, and Php.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex ftco-animate">
+              <div class="blog-entry justify-content-end">
+                <div class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');"></div>
+                <div class="text mt-3 float-right d-block">
+                  <h3 class="heading">Snake Game</h3>
+                  <p>The objective of this game was for small children who enjoy playing. But due to the pandemic now they can’t go outside by sitting at home will enjoy a lot. The game requires patience in order to grow and a cool head once you inevitably lose using Python.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex ftco-animate">
+              <div class="blog-entry">
+                <div class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');"></div>
+                <div class="text mt-3 float-right d-block">
+                  <h3 class="heading">Online Examination System</h3>
+                  <p>This application was designed and developed for students and lecturers. The system helps students to take examinations and lecturers can see students' scores who fail or pass that are stored in the database using Java.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-4 d-flex ftco-animate">
+              <div class="blog-entry justify-content-end">
+                <div class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');"></div>
+                <div class="text mt-3 float-right d-block">
+                  <h3 class="heading">Tailor Fashion Store</h3>
+                  <p>The Tailor Fashion Store has been developed to override the problems prevailing in the practicing manual system. This application is reduced as much as possible to avoid errors message while entering invalid data using Java, Mysql.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex ftco-animate">
+              <div class="blog-entry justify-content-end">
+                <div class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');"></div>
+                <div class="text mt-3 float-right d-block">
+                  <h3 class="heading">Voice Assistant</h3>
+                  <p>Voice assistants are turning out to be smarter than ever. This system searches on Google and YouTube by just recognizing the voice of the user. Camera, notepad, and date/time will be searched using Python.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-4 d-flex ftco-animate">
+              <div class="blog-entry justify-content-end">
+                <div class="block-20 zoom-effect" style="background-image: url('images/proj_6.jpg');"></div>
+                <div class="text mt-3 float-right d-block">
+                  <h3 class="heading">Weather Master</h3>
+                  <p>Weather forecasting is the application of science and technology to predict the conditions of the atmosphere for a given location and time using Android.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex ftco-animate">
+              <div class="blog-entry justify-content-end">
+                <div class="block-20 zoom-effect" style="background-image: url('images/proj_7.jpg');"></div>
+                <div class="text mt-3 float-right d-block">
+                  <h3 class="heading">Krushi Seva System</h3>
+                  <p>Krushi Seva Project was a final year project that was built for farmers and customers. Even workers are employed for it. PHP Myql.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+      <section class="ftco-section" id="skills1">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-5">
+                <div class="col-md-7 heading-section text-center ftco-animate">
+                    <h1 class="big big-2">Skills</h1>
+                    <p>Here are some of the technical skills and tools I have expertise in:</p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="skills-entry text-center">
+                        <i class="fab fa-html5 fa-4x"></i>
+                        <h3>HTML5</h3>
+                        <p>Proficient in creating structured and semantic web pages.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="skills-entry text-center">
+                        <i class="fab fa-css3-alt fa-4x"></i>
+                        <h3>CSS3</h3>
+                        <p>Skilled in styling web pages with modern CSS techniques.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-4">
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="skills-entry text-center">
+                        <i class="fab fa-js fa-4x"></i>
+                        <h3>JavaScript</h3>
+                        <p>Experienced in adding interactivity and dynamic behavior to web pages.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="skills-entry text-center">
+                        <i class="fab fa-php fa-4x"></i>
+                        <h3>PHP</h3>
+                        <p>Experienced in server-side scripting and backend development with PHP.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-4">
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="skills-entry text-center">
+                        <i class="fab fa-android fa-4x"></i>
+                        <h3>Android Development</h3>
+                        <p>Experienced in developing Android applications using Java and Kotlin.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="skills-entry text-center">
+                        <i class="fas fa-database fa-4x"></i>
+                        <h3>Firebase & MySQL</h3>
+                        <p>Skilled in backend development with Firebase and MySQL databases.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-4">
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="skills-entry text-center">
+                        <i class="fab fa-java fa-4x"></i>
+                        <h3>Java</h3>
+                        <p>Proficient in object-oriented programming and building applications with Java.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="skills-entry text-center">
+                        <i class="fab fa-python fa-4x"></i>
+                        <h3>Python</h3>
+                        <p>Experienced in Python programming for web development, data analysis, and automation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+      
+      
+  
+                           <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
+                            <div class="container">
+                              <div class="row justify-content-center">
+                                <div class="col-md-7 ftco-animate text-center">
+                                  <h2>Here's my
+                                    <span>
+                                      <a href="https://github.com/pranitajagtap25" target="_blank">
+                                        <button id="gitbtn" class="btn btn-primary py-3 px-5">GitHub</button>
+                                      </a>
+                                    </span>
+                                  </h2>
+                                  <div class="heading">
+                                    <h4>
+                                      I love to code &amp; create awesome artworks.
+                                    </h4>
+                                    <br>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          </section>
+
+
+
+                         <!----contact----->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i><a href="mailto:pdjagtap410@gmail.com">pdjagtap410@gmail.com</a></p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/pranita-jagtap-2537141b7/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/pranitaa25?igsh=MWRjODcxODd5NmlxNA=="><i class="fa-brands fa-instagram"></i></a>
+          
+        </div>
+      </div>
+      <div class="contact-right">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="3fc88aaa-c63b-467e-aa3b-0037766b4120">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p><i class="fa-regular fa-copyright"></i>Copyright Pranita Jagtap. All Rights Reserved</p>
+  </div>
+</div>
+
+
+
+
+                          
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            document.querySelector(`[onclick="opentab('${tabname}')"]`).classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+
+
+<script>
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu() {
+    sidemenu.style.right = "0";
+  }
+
+  function closemenu() {
+    sidemenu.style.right = "-200px";
+  }
+</script>
+
+</body>
+</html>
